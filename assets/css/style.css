@@ -1,0 +1,22 @@
+body {
+
+}
+
+header {
+
+}
+
+img {
+    height: 200px;
+    width: 100px;
+}
+
+h1 {
+    float: left;
+    background: turquoise;
+}
+
+#navigation {
+    float: left;
+    color: black;
+}
