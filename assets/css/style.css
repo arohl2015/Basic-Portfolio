@@ -1,22 +1,46 @@
 body {
-
+    background-image: url(../images/memphis-mini.png);
 }
 
 header {
-
-}
-
-img {
-    height: 200px;
-    width: 100px;
+    background: teal;
+    width: 15%;
 }
 
 h1 {
-    float: left;
-    background: turquoise;
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
 }
 
-#navigation {
+nav {
+    float: right;
+    display: inline-block;
+}
+
+#bio-image  {
     float: left;
-    color: black;
+    height: 200px;
+    width: 150x;
+    margin-right: 20px;
+}
+
+#about-me {
+    clear: right;
+    float: left;
+    width: 70%;
+}
+
+
+h2 {
+    font-size: 25px;
+    color: teal;
+}
+
+footer {
+    
+    
 }
