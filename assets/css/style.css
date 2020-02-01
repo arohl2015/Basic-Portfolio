@@ -3,22 +3,44 @@ body {
 }
 
 header {
-    background: teal;
-    width: 15%;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: auto;
+    margin: 0px auto;
+    border-color: grey;
+    border-width: 0px 0px 1 px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    max-width: 960px;
+    width: 100%;
+}
+
+hr {
+    width: 95%;
 }
 
 h1 {
-    padding: 20px 0;
-    margin: 0;
+    padding: 25px 0;
+    margin: 0px;
     margin-bottom: 20px;
     font-size: 25px;
     color: white;
     text-align: center;
+    width: 25%;
+    background: teal;
 }
 
-nav {
-    float: right;
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
     display: inline-block;
+    padding: 0px 20px;
 }
 
 #bio-image  {
@@ -28,19 +50,36 @@ nav {
     margin-right: 20px;
 }
 
-#about-me {
+#section   {
+    width: 100%;
+}
+
+.about-me {
+    height: 450px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-color: black;
+    border-width: 3px;
     clear: right;
     float: left;
     width: 70%;
 }
 
-
 h2 {
+    text-align: left;
     font-size: 25px;
     color: teal;
 }
 
-footer {
-    
-    
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px 0px 0px 0px;
 }

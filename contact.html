@@ -3,17 +3,37 @@
     <title>Basic Portfolio - Project 1</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <body>
-<header>
-    <h1>April Rohl</h1>
-</header>
-<div class="nav">
-    <nav>
-        <a href="index.html">About</a> 
-        <a href="portfolio.html">Portfolio</a> 
-        <a href="contact.html">Contact</a> 
-         </nav>
+    <header>
+        <h1>April Rohl</h1>
+        <nav>
+            <ul class="nav_links">
+            <li><a href="index.html">About</a></li> 
+            <li><a href="portfolio.html">Portfolio</a></li> 
+            <li><a href="contact.html">Contact</a><li> 
+            </ul>        
+        </nav>
+    </header>
+
+    <div class="contact form">
+        <h2>Contact</h2>
+        <div class="txtb">
+            <label for="Name">Name</label>
+            <input type="text" id="name" name="Name" placeholder="John Smith">
+
+            <label for="Email">Email</label>
+            <input type="text" id="email" name="Email" placeholder="example@gmail.com">
+
+            <label for="Message">Message</label>
+            <textarea id="Message" name="Message" placeholder="Write something.."
+            style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">      
+
+    </div>
+
+    <div class="footer">
+        <p> Copyright&copy</p>
         </div>
-</section>
   
 </body>
 </html>
