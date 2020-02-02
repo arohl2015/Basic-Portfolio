@@ -77,7 +77,7 @@ h3  {
     font-size: 25px;
     color: white;
     background: teal;
-    width: 17.4%;
+    width: 17%;
 }
 
 input[type=text], select, textarea  {
@@ -138,7 +138,7 @@ input[type=sumbit]:hover  {
     border-top: 8px solid #4aaaa5;
 }
 
-bottom  {
+bottom{
     clear:both;
 }
 
